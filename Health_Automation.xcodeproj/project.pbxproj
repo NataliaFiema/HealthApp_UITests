@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD25FE5C2BC170DE00160156 /* DrugDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD25FE5B2BC170DE00160156 /* DrugDetails.swift */; };
+		AD25FE5E2BC1713E00160156 /* AddMedicationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD25FE5D2BC1713E00160156 /* AddMedicationPage.swift */; };
+		AD25FE602BC173B700160156 /* EditMedicationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD25FE5F2BC173B700160156 /* EditMedicationsList.swift */; };
+		AD25FE642BC1983800160156 /* EditFavourites.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD25FE632BC1983800160156 /* EditFavourites.swift */; };
+		AD25FE662BC1985F00160156 /* SummaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD25FE652BC1985F00160156 /* SummaryTests.swift */; };
+		AD25FE6A2BC1A17800160156 /* Health_AutomationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD25FE692BC1A17800160156 /* Health_AutomationTests.swift */; };
+		AD34C8592BBEC24B004EB26D /* Health_AutomationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34C8582BBEC24B004EB26D /* Health_AutomationApp.swift */; };
+		AD34C85B2BBEC24B004EB26D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34C85A2BBEC24B004EB26D /* ContentView.swift */; };
+		AD34C85D2BBEC253004EB26D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD34C85C2BBEC253004EB26D /* Assets.xcassets */; };
+		AD34C8612BBEC253004EB26D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD34C8602BBEC253004EB26D /* Preview Assets.xcassets */; };
+		AD34C8842BBEC271004EB26D /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34C8832BBEC271004EB26D /* BaseTest.swift */; };
+		AD34C8882BBEC3E3004EB26D /* MedicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34C8872BBEC3E3004EB26D /* MedicationTests.swift */; };
+		AD34C88B2BBEC4AA004EB26D /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34C88A2BBEC4AA004EB26D /* OnboardingPage.swift */; };
+		AD34C88E2BBECB14004EB26D /* CommonHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34C88D2BBECB14004EB26D /* CommonHelpers.swift */; };
+		AD34C8902BBED1A3004EB26D /* CommonHelpers+XCUIElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34C88F2BBED1A3004EB26D /* CommonHelpers+XCUIElement.swift */; };
+		AD34C8922BBEDBE0004EB26D /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34C8912BBEDBE0004EB26D /* Summary.swift */; };
+		AD34C8942BBEDD8C004EB26D /* CommonHelpers_XCUIElementQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34C8932BBEDD8C004EB26D /* CommonHelpers_XCUIElementQuery.swift */; };
+		AD34C8962BBEDF31004EB26D /* Medications.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34C8952BBEDF31004EB26D /* Medications.swift */; };
+		AD34C8982BBF0A93004EB26D /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34C8972BBF0A93004EB26D /* Errors.swift */; };
+		AD34C89A2BBF0CE3004EB26D /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34C8992BBF0CE3004EB26D /* Sidebar.swift */; };
+		AD5E15CE2BC3055100BC91E9 /* MedicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5E15CD2BC3055100BC91E9 /* MedicationData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD34C8672BBEC253004EB26D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD34C84D2BBEC24B004EB26D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD34C8542BBEC24B004EB26D;
+			remoteInfo = Health_Automation;
+		};
+		AD34C8712BBEC253004EB26D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD34C84D2BBEC24B004EB26D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD34C8542BBEC24B004EB26D;
+			remoteInfo = Health_Automation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD1541432BCAF92900D1E5B0 /* Health_Automation.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Health_Automation.xctestplan; sourceTree = "<group>"; };
+		AD25FE5B2BC170DE00160156 /* DrugDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugDetails.swift; sourceTree = "<group>"; };
+		AD25FE5D2BC1713E00160156 /* AddMedicationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedicationPage.swift; sourceTree = "<group>"; };
+		AD25FE5F2BC173B700160156 /* EditMedicationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMedicationsList.swift; sourceTree = "<group>"; };
+		AD25FE632BC1983800160156 /* EditFavourites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFavourites.swift; sourceTree = "<group>"; };
+		AD25FE652BC1985F00160156 /* SummaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryTests.swift; sourceTree = "<group>"; };
+		AD25FE682BC1A17700160156 /* Health_AutomationTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Health_AutomationTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		AD25FE692BC1A17800160156 /* Health_AutomationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Health_AutomationTests.swift; sourceTree = "<group>"; };
+		AD34C8552BBEC24B004EB26D /* Health_Automation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Health_Automation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD34C8582BBEC24B004EB26D /* Health_AutomationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_AutomationApp.swift; sourceTree = "<group>"; };
+		AD34C85A2BBEC24B004EB26D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD34C85C2BBEC253004EB26D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD34C85E2BBEC253004EB26D /* Health_Automation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Health_Automation.entitlements; sourceTree = "<group>"; };
+		AD34C8602BBEC253004EB26D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD34C8662BBEC253004EB26D /* Health_AutomationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Health_AutomationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD34C8702BBEC253004EB26D /* Health_AutomationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Health_AutomationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD34C8832BBEC271004EB26D /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
+		AD34C8872BBEC3E3004EB26D /* MedicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationTests.swift; sourceTree = "<group>"; };
+		AD34C88A2BBEC4AA004EB26D /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		AD34C88D2BBECB14004EB26D /* CommonHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonHelpers.swift; sourceTree = "<group>"; };
+		AD34C88F2BBED1A3004EB26D /* CommonHelpers+XCUIElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CommonHelpers+XCUIElement.swift"; sourceTree = "<group>"; };
+		AD34C8912BBEDBE0004EB26D /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
+		AD34C8932BBEDD8C004EB26D /* CommonHelpers_XCUIElementQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonHelpers_XCUIElementQuery.swift; sourceTree = "<group>"; };
+		AD34C8952BBEDF31004EB26D /* Medications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medications.swift; sourceTree = "<group>"; };
+		AD34C8972BBF0A93004EB26D /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		AD34C8992BBF0CE3004EB26D /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		AD5E15CD2BC3055100BC91E9 /* MedicationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD34C8522BBEC24B004EB26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34C8632BBEC253004EB26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34C86D2BBEC253004EB26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD25FE5A2BC170C300160156 /* Medications */ = {
+			isa = PBXGroup;
+			children = (
+				AD34C8952BBEDF31004EB26D /* Medications.swift */,
+				AD25FE5B2BC170DE00160156 /* DrugDetails.swift */,
+				AD25FE5D2BC1713E00160156 /* AddMedicationPage.swift */,
+				AD25FE5F2BC173B700160156 /* EditMedicationsList.swift */,
+				AD5E15CD2BC3055100BC91E9 /* MedicationData.swift */,
+			);
+			path = Medications;
+			sourceTree = "<group>";
+		};
+		AD25FE672BC1A16000160156 /* Health_AutomationTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD25FE692BC1A17800160156 /* Health_AutomationTests.swift */,
+				AD25FE682BC1A17700160156 /* Health_AutomationTests-Bridging-Header.h */,
+			);
+			path = Health_AutomationTests;
+			sourceTree = "<group>";
+		};
+		AD34C84C2BBEC24B004EB26D = {
+			isa = PBXGroup;
+			children = (
+				AD1541432BCAF92900D1E5B0 /* Health_Automation.xctestplan */,
+				AD34C8572BBEC24B004EB26D /* Health_Automation */,
+				AD34C8732BBEC253004EB26D /* Health_AutomationUITests */,
+				AD34C8562BBEC24B004EB26D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD34C8562BBEC24B004EB26D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD34C8552BBEC24B004EB26D /* Health_Automation.app */,
+				AD34C8662BBEC253004EB26D /* Health_AutomationTests.xctest */,
+				AD34C8702BBEC253004EB26D /* Health_AutomationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD34C8572BBEC24B004EB26D /* Health_Automation */ = {
+			isa = PBXGroup;
+			children = (
+				AD25FE672BC1A16000160156 /* Health_AutomationTests */,
+				AD34C8582BBEC24B004EB26D /* Health_AutomationApp.swift */,
+				AD34C85A2BBEC24B004EB26D /* ContentView.swift */,
+				AD34C85C2BBEC253004EB26D /* Assets.xcassets */,
+				AD34C85E2BBEC253004EB26D /* Health_Automation.entitlements */,
+				AD34C85F2BBEC253004EB26D /* Preview Content */,
+			);
+			path = Health_Automation;
+			sourceTree = "<group>";
+		};
+		AD34C85F2BBEC253004EB26D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD34C8602BBEC253004EB26D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD34C8732BBEC253004EB26D /* Health_AutomationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD34C8862BBEC281004EB26D /* Pages */,
+				AD34C8852BBEC278004EB26D /* Tests */,
+			);
+			path = Health_AutomationUITests;
+			sourceTree = "<group>";
+		};
+		AD34C8852BBEC278004EB26D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AD34C8832BBEC271004EB26D /* BaseTest.swift */,
+				AD34C8872BBEC3E3004EB26D /* MedicationTests.swift */,
+				AD25FE652BC1985F00160156 /* SummaryTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		AD34C8862BBEC281004EB26D /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				AD25FE5A2BC170C300160156 /* Medications */,
+				AD34C88C2BBECB06004EB26D /* Helpers */,
+				AD34C8892BBEC498004EB26D /* Onboarding */,
+				AD34C8912BBEDBE0004EB26D /* Summary.swift */,
+				AD34C8992BBF0CE3004EB26D /* Sidebar.swift */,
+				AD25FE632BC1983800160156 /* EditFavourites.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		AD34C8892BBEC498004EB26D /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				AD34C88A2BBEC4AA004EB26D /* OnboardingPage.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		AD34C88C2BBECB06004EB26D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AD34C88D2BBECB14004EB26D /* CommonHelpers.swift */,
+				AD34C88F2BBED1A3004EB26D /* CommonHelpers+XCUIElement.swift */,
+				AD34C8932BBEDD8C004EB26D /* CommonHelpers_XCUIElementQuery.swift */,
+				AD34C8972BBF0A93004EB26D /* Errors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD34C8542BBEC24B004EB26D /* Health_Automation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD34C87A2BBEC253004EB26D /* Build configuration list for PBXNativeTarget "Health_Automation" */;
+			buildPhases = (
+				AD34C8512BBEC24B004EB26D /* Sources */,
+				AD34C8522BBEC24B004EB26D /* Frameworks */,
+				AD34C8532BBEC24B004EB26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Health_Automation;
+			productName = Health_Automation;
+			productReference = AD34C8552BBEC24B004EB26D /* Health_Automation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD34C8652BBEC253004EB26D /* Health_AutomationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD34C87D2BBEC253004EB26D /* Build configuration list for PBXNativeTarget "Health_AutomationTests" */;
+			buildPhases = (
+				AD34C8622BBEC253004EB26D /* Sources */,
+				AD34C8632BBEC253004EB26D /* Frameworks */,
+				AD34C8642BBEC253004EB26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD34C8682BBEC253004EB26D /* PBXTargetDependency */,
+			);
+			name = Health_AutomationTests;
+			productName = Health_AutomationTests;
+			productReference = AD34C8662BBEC253004EB26D /* Health_AutomationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD34C86F2BBEC253004EB26D /* Health_AutomationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD34C8802BBEC253004EB26D /* Build configuration list for PBXNativeTarget "Health_AutomationUITests" */;
+			buildPhases = (
+				AD34C86C2BBEC253004EB26D /* Sources */,
+				AD34C86D2BBEC253004EB26D /* Frameworks */,
+				AD34C86E2BBEC253004EB26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD34C8722BBEC253004EB26D /* PBXTargetDependency */,
+			);
+			name = Health_AutomationUITests;
+			productName = Health_AutomationUITests;
+			productReference = AD34C8702BBEC253004EB26D /* Health_AutomationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD34C84D2BBEC24B004EB26D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AD34C8542BBEC24B004EB26D = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					AD34C8652BBEC253004EB26D = {
+						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
+						TestTargetID = AD34C8542BBEC24B004EB26D;
+					};
+					AD34C86F2BBEC253004EB26D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AD34C8542BBEC24B004EB26D;
+					};
+				};
+			};
+			buildConfigurationList = AD34C8502BBEC24B004EB26D /* Build configuration list for PBXProject "Health_Automation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD34C84C2BBEC24B004EB26D;
+			productRefGroup = AD34C8562BBEC24B004EB26D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD34C8542BBEC24B004EB26D /* Health_Automation */,
+				AD34C8652BBEC253004EB26D /* Health_AutomationTests */,
+				AD34C86F2BBEC253004EB26D /* Health_AutomationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD34C8532BBEC24B004EB26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD34C8612BBEC253004EB26D /* Preview Assets.xcassets in Resources */,
+				AD34C85D2BBEC253004EB26D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34C8642BBEC253004EB26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34C86E2BBEC253004EB26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD34C8512BBEC24B004EB26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD34C85B2BBEC24B004EB26D /* ContentView.swift in Sources */,
+				AD34C8592BBEC24B004EB26D /* Health_AutomationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34C8622BBEC253004EB26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD25FE6A2BC1A17800160156 /* Health_AutomationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34C86C2BBEC253004EB26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD34C88E2BBECB14004EB26D /* CommonHelpers.swift in Sources */,
+				AD25FE5C2BC170DE00160156 /* DrugDetails.swift in Sources */,
+				AD25FE662BC1985F00160156 /* SummaryTests.swift in Sources */,
+				AD34C8882BBEC3E3004EB26D /* MedicationTests.swift in Sources */,
+				AD25FE642BC1983800160156 /* EditFavourites.swift in Sources */,
+				AD34C8902BBED1A3004EB26D /* CommonHelpers+XCUIElement.swift in Sources */,
+				AD5E15CE2BC3055100BC91E9 /* MedicationData.swift in Sources */,
+				AD25FE5E2BC1713E00160156 /* AddMedicationPage.swift in Sources */,
+				AD25FE602BC173B700160156 /* EditMedicationsList.swift in Sources */,
+				AD34C8842BBEC271004EB26D /* BaseTest.swift in Sources */,
+				AD34C8942BBEDD8C004EB26D /* CommonHelpers_XCUIElementQuery.swift in Sources */,
+				AD34C8982BBF0A93004EB26D /* Errors.swift in Sources */,
+				AD34C88B2BBEC4AA004EB26D /* OnboardingPage.swift in Sources */,
+				AD34C8962BBEDF31004EB26D /* Medications.swift in Sources */,
+				AD34C89A2BBF0CE3004EB26D /* Sidebar.swift in Sources */,
+				AD34C8922BBEDBE0004EB26D /* Summary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD34C8682BBEC253004EB26D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD34C8542BBEC24B004EB26D /* Health_Automation */;
+			targetProxy = AD34C8672BBEC253004EB26D /* PBXContainerItemProxy */;
+		};
+		AD34C8722BBEC253004EB26D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD34C8542BBEC24B004EB26D /* Health_Automation */;
+			targetProxy = AD34C8712BBEC253004EB26D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD34C8782BBEC253004EB26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD34C8792BBEC253004EB26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AD34C87B2BBEC253004EB26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Health_Automation/Health_Automation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Health_Automation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "homework.Health-Automation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD34C87C2BBEC253004EB26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Health_Automation/Health_Automation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Health_Automation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "homework.Health-Automation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD34C87E2BBEC253004EB26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "homework.Health-AutomationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Health_Automation/Health_AutomationTests/Health_AutomationTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Health_Automation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Health_Automation";
+			};
+			name = Debug;
+		};
+		AD34C87F2BBEC253004EB26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "homework.Health-AutomationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Health_Automation/Health_AutomationTests/Health_AutomationTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Health_Automation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Health_Automation";
+			};
+			name = Release;
+		};
+		AD34C8812BBEC253004EB26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "homework.Health-AutomationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Health_Automation;
+			};
+			name = Debug;
+		};
+		AD34C8822BBEC253004EB26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "homework.Health-AutomationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Health_Automation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD34C8502BBEC24B004EB26D /* Build configuration list for PBXProject "Health_Automation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD34C8782BBEC253004EB26D /* Debug */,
+				AD34C8792BBEC253004EB26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD34C87A2BBEC253004EB26D /* Build configuration list for PBXNativeTarget "Health_Automation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD34C87B2BBEC253004EB26D /* Debug */,
+				AD34C87C2BBEC253004EB26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD34C87D2BBEC253004EB26D /* Build configuration list for PBXNativeTarget "Health_AutomationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD34C87E2BBEC253004EB26D /* Debug */,
+				AD34C87F2BBEC253004EB26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD34C8802BBEC253004EB26D /* Build configuration list for PBXNativeTarget "Health_AutomationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD34C8812BBEC253004EB26D /* Debug */,
+				AD34C8822BBEC253004EB26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD34C84D2BBEC24B004EB26D /* Project object */;
+}

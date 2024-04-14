@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "5EEEFCEB-C1E9-4514-B6A4-8118BD54EA04",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Health_Automation.xcodeproj",
+      "identifier" : "AD34C8542BBEC24B004EB26D",
+      "name" : "Health_Automation"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Health_Automation.xcodeproj",
+        "identifier" : "AD34C8652BBEC253004EB26D",
+        "name" : "Health_AutomationTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Health_Automation.xcodeproj",
+        "identifier" : "AD34C86F2BBEC253004EB26D",
+        "name" : "Health_AutomationUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
